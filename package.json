@@ -1,0 +1,20 @@
+{
+  "name": "agora-token-server",
+  "version": "1.0.0",
+  "description": "this server is used to generate token from agora server",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify deploy --prod",
+    "start": "node api.js"
+  },
+  "author": "shaurya kajiwala",
+  "license": "ISC",
+  "dependencies": {
+    "agora-token": "^2.0.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "netlify-cli": "^17.15.0",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
+  }
+}
